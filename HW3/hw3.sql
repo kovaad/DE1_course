@@ -39,9 +39,9 @@ SELECT MIN(speed) FROM birdstrikes WHERE aircraft LIKE 'H%';
 
 -- Which phase_of_flight has the least of incidents?
 
-SELECT COUNT(id) AS count FROM birdstrikes GROUP BY phase_of_flight ORDER BY count ASC LIMIT 1;
+SELECT phase_of_flight,COUNT(id) AS count FROM birdstrikes GROUP BY phase_of_flight ORDER BY count ASC LIMIT 1;
 
--- 2
+-- Taxi (it has 2)
 
 -- What is the rounded highest average cost by phase_of_flight?
 
@@ -49,7 +49,7 @@ SELECT ROUND(AVG(cost),2) AS rounded_cost FROM birdstrikes GROUP BY phase_of_fli
 
 -- 54672.98
 
--- What the highest AVG speed of the states with names less than 5 characters?
+-- What is the highest AVG speed of the states with names less than 5 characters?
 
 SELECT AVG(speed) AS avg_speed FROM birdstrikes GROUP BY state HAVING LENGTH(state) < 5 ORDER BY avg_speed DESC LIMIT 1;
 
