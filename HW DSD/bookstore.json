@@ -1,0 +1,37 @@
+{
+    "bookstore": [
+        {"book category" : "COOKING",
+            "titles" :
+                    {"title": "Everyday Italian", "lang":"en"},
+           "authors" :
+                   {"author" : "Giada De Laurentiis"},
+            "year": 2005,
+            "price": 30.00,
+            "available": true
+        },
+        {"book category" : "CHILDREN",
+            "titles":
+                {"title": "Harry Potter", "lang": "en"},
+            "authors":
+                {"author": "J K. Rowling"},
+            "price": 29.99,
+            "available": false
+        },
+        {"book category" : "DATA",
+            "titles":
+                [
+                    {"title": "The Data Warehouse Toolkit", "lang":"en"},
+                    {"title" : "Adattárház eszközök", "lang":"hu"}
+                ],
+            "authors":
+                [
+                    {"author": "Ralph Kimball"},
+                    {"author": "Margy Ross"}
+                ],
+            "year": 2002,
+            "price": 87,
+            "available": true
+        }
+    ]
+    
+}
