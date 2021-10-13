@@ -1,0 +1,70 @@
+{
+    "university": [
+        {"students":
+            [
+                {"idstudents":
+                    [
+                        {"idstudent": 1},
+                        {"idstudent": 2}
+                    ]
+                },
+                {"names":
+                    [
+                        {"name": "Bela"},
+                        {"name": "Pista"}
+                    ]
+                },
+                {"programs":
+                    [
+                        {"program": "International Relations MA"},
+                        {"program": "International Economics BA"}
+                    ]
+                }
+            ]
+        },
+        {"programs" :
+            [
+                {"idprograms":
+                    [
+                        {"idprogram": 1},
+                        {"idprogram": 2}
+                    ]
+                },
+                {"names":
+                    [
+                        {"name": "International Relations MA"},
+                        {"name": "International Economics BA"}
+                    ]
+                },
+                {"admin":
+                    {"name": "Eszter Fuchs"}
+                },
+                {"head":
+                    [
+                        {"name": "Mate Szalai"},
+                        {"name": "Benedek Toth"}
+                    ]
+                }
+
+            ]
+        },
+        {"admin" :
+            [
+                {"idadmin":1},
+                {"name": "Eszter Fuchs"}
+            ]
+        },
+        {"course" :
+            [
+                {"idcourse": 1},           
+                {"name": "Introduction to Economics"}
+            ]
+        },
+        {"faculty" :
+            [
+                {"idfaculty": 1},           
+                {"name": "Miklos Koren"}
+            ]
+        },
+    ]
+}
