@@ -22,7 +22,7 @@ The operational layer consists of [6 tables stored in csv](/Term1/data) - all of
     * The **players** table contains the names of the players
     * The **appearances** table contains detailed statistics of the performance of players in every game they played 
 
-![Database diagram](/TERM_DE1/EER_diagram.png)
+![Database diagram](/Term1/EER_diagram.png)
 
 There was one issue with the data I had to address when creating my data warehouse, namely that there is no direct link between teams and players - they are connected only by the **games** table, so we only know that they played in a particular game, but we do not know in which team. Thus, I decided to focus on the best performers of the game, not by teams. This is practical as well, because when betting on players, people bet on the scorers or the assisters, not by team, but across the two teams in any game.   
 
@@ -37,7 +37,7 @@ My analytics plan is the following:
 
 This is illustrated in the below figure: 
 
-![Analytics plan diagram](/Term1/analytics_plan.png)
+![Analytics plan diagram](/Analytics_plan.png)
 
 ###  Analytical layer ###
  
