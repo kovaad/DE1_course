@@ -37,7 +37,7 @@ My analytics plan is the following:
 
 This is illustrated in the below figure: 
 
-![Analytics plan diagram](/Term1/Analytics_plan.png.png)
+![Analytics plan diagram](/Term1/Analytics_plan.png)
 
 ###  Analytical layer ###
  
@@ -45,7 +45,7 @@ In the analytical layer, I created one central denormalised data warehouse with 
 
 Analytical layer was created using the following [queries](/Term1/ETL_to_create_dw.sql).
 
-![DW diagram](/Term1/data_warehouse.PNG)
+![DW diagram](/Term1/Operational_layer.png)
 
 ###  Data Marts ###
  
