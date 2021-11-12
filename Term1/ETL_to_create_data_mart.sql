@@ -96,7 +96,7 @@ BEGIN
     FROM games_detailed
     WHERE scorers like CONCAT('%',Max_xa_player,'%')
     GROUP BY Max_xa_player, league, season
-    ORDER BY league, season, Scored_when_max_xa DESC;
+    ORDER BY league, season, Assisted_when_max_xa DESC;
     
 END //
 DELIMITER ;
