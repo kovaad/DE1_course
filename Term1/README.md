@@ -1,4 +1,4 @@
-# Ádám József Kovács -  Term project 1 documentation#
+# Ádám József Kovács -  Term project 1 documentation
 
 This folder contains all my workfiles used for the [term project](https://ceu-economics-and-business.github.io/ECBS-5146-Different-Shapes-of-Data/term1/index.html) in Data Engineering 1. In this project, I built a schema in MySQL using the **Football database** available on Kaggle - [link](https://www.kaggle.com/technika148/football-database).
 
@@ -37,7 +37,7 @@ My analytics plan is the following:
 
 This is illustrated in the below figure: 
 
-![Analytics plan diagram](/Analytics_plan.png)
+![Analytics plan diagram](/Term1/Analytics_plan.png.png)
 
 ###  Analytical layer ###
  
