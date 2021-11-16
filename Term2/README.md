@@ -4,25 +4,21 @@
 This project was created  for the Data Engineering 2: Different Shapes of Data course of Central European University’s MSc in Business Analytics program. 
 
 # Content of the repository
-* [Report of the project](link_to_report)
-* [PPT](link_to_ppt)
-* [Knime Workflow](link_to_knime_workflow) 
-* [Code folder](link_to_codes) - contains the SQL script for creating our Kaggle inequality database and an R script dowloading WDI data
-* [Data folder](link_to_data_folder) - in which you can find ...
-* [Graphs](link_to_graphs) - which contains all the graphs we created for our project
+* [Report of the project](https://github.com/kovaad/DE1_course/blob/main/Term2/Paris_team_term_project2_report.pdf)
+* [PPT](https://github.com/kovaad/DE1_course/blob/main/Term2/DE1_Term2_Paris_presentation.pptx)
+* [Knime Workflow](https://github.com/kovaad/DE1_course/blob/main/Term2/DE1_Term2_Paris_workflow.knwf) 
+* [Code folder](https://github.com/kovaad/DE1_course/tree/main/Term2/code) - contains the SQL scripts for creating the databases
+* [Data folder](https://github.com/kovaad/DE1_course/tree/main/Term2/raw_data) - in which you can find our raw csv files
+* [Graphs](https://github.com/kovaad/DE1_course/tree/main/Term2/graphs) - which contains all the graphs we created for our project
 
 # Reproducability of the workflow
 We made our project reproducable with slight modifications required by the user:
 
 *Steps required for reproduction:*
-1. Open Knime Workflow and run File Reader section (saves required files to the users MySQL upload folder (path may need to be changed to users 
-2. Open MySQL on users computer and run provided dataloading.sql script
+1. Open Knime Workflow and run File Reader section (saves required files to folder from where MySQL reads in - path needs to be changed to users)
+2. Open MySQL on users computer and run provided sql scripts
 3. Configure MySQL Connector node in Knime with the username and password of the user
-4. User needs to have R installed with the Rserve package. The users R root folder location in KNIME should be set like: File>Preferences>KNIME>R>Path to R home
-5. To save output images, change "Output Location" for all "Input Nodes" (output images also available [here](link_to_graphs).
-6. The workflow can now be run by the user
+4. To save output images, change “Output Location” for all “Input Nodes”, output images also available [here](https://github.com/ghazalayobi/de1/tree/main/Term2/graph).
+5. The workflow can now be run by the user
 
-The overview of the workflow is the following:
-![Workflow image](project_workflow_image)
-
-For further details prease read our [report](link_to_report).
+For further details prease read our [report](https://github.com/kovaad/DE1_course/blob/main/Term2/Paris_team_term_project2_report.pdf).
