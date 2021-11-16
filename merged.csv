@@ -1,0 +1,6 @@
+carrier,year,month,day,dep_time,sched_dep_time,dep_delay,arr_time,sched_arr_time,arr_delay,flight,tailnum,origin,dest,air_time,distance,hour,minute,time_hour,name
+AA,2013,11,24,2301,1225,636,149,1535,614,1697,N634AA,JFK,MIA,143,1089,12,25,2013-11-24T17:00:00Z,American Airlines Inc.
+AA,2013,12,5,756,1700,896,1058,2020,878,172,N5DMAA,EWR,MIA,149,1085,17,0,2013-12-05T22:00:00Z,American Airlines Inc.
+AA,2013,12,15,625,1925,660,933,2245,648,2437,N635AA,LGA,MIA,165,1096,19,25,2013-12-16T00:00:00Z,American Airlines Inc.
+AA,2013,12,17,705,1700,845,1026,2020,846,172,N5EMAA,EWR,MIA,145,1085,17,0,2013-12-17T22:00:00Z,American Airlines Inc.
+AA,2013,7,21,1555,615,580,1955,910,645,1895,N3EMAA,EWR,MIA,177,1085,6,15,2013-07-21T10:00:00Z,American Airlines Inc.

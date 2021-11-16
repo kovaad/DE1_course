@@ -1,0 +1,1 @@
+/Users/adamkovacs/Documents/bash/ECBS-5146-Different-Shapes-of-Data/artifacts/knime/fips.csv

@@ -1,0 +1,247 @@
+
+{
+    "type": "object",
+    "properties": {
+        "json-output": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "metadata": {
+                        "type": "object",
+                        "properties": {
+                            "resultset": {
+                                "type": "object",
+                                "properties": {
+                                    "offset": {
+                                        "type": "integer",
+                                        "default": 1
+                                    },
+                                    "count": {
+                                        "type": "integer",
+                                        "default": 58
+                                    },
+                                    "limit": {
+                                        "type": "integer",
+                                        "default": 1
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "results": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "date": {
+                                    "type": "string",
+                                    "default": "2000-01-02T00:00:00"
+                                },
+                                "datatype": {
+                                    "type": "string",
+                                    "default": "AWND"
+                                },
+                                "station": {
+                                    "type": "string",
+                                    "default": "GHCND:USW00003102"
+                                },
+                                "attributes": {
+                                    "type": "string",
+                                    "default": ",,W,"
+                                },
+                                "value": {
+                                    "type": "number",
+                                    "default": 2.1
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": [
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 58,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-02T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00003102",
+                            "attributes": ",,W,",
+                            "value": 2.1
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 20,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-01T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USS0005K14S",
+                            "attributes": ",,T,",
+                            "value": 0.3
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 38,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-01T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00003818",
+                            "attributes": ",,W,",
+                            "value": 1.6
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 38,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-02T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00003818",
+                            "attributes": ",,W,",
+                            "value": 2.1
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 38,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-02T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00003818",
+                            "attributes": ",,W,",
+                            "value": 2.1
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 14,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-01T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00003960",
+                            "attributes": ",,W,",
+                            "value": 2.4
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 18,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-02T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00003929",
+                            "attributes": ",,W,",
+                            "value": 5.5
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 9,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-01T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00013735",
+                            "attributes": ",,X,",
+                            "value": 0.4
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 24,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-02T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00004804",
+                            "attributes": ",,W,",
+                            "value": 6.7
+                        }
+                    ]
+                },
+                {
+                    "metadata": {
+                        "resultset": {
+                            "offset": 1,
+                            "count": 8,
+                            "limit": 1
+                        }
+                    },
+                    "results": [
+                        {
+                            "date": "2000-01-02T00:00:00",
+                            "datatype": "AWND",
+                            "station": "GHCND:USW00023176",
+                            "attributes": ",,W,",
+                            "value": 4.8
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

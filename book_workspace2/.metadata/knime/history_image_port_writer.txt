@@ -1,0 +1,10 @@
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/gini_poverty_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/gini_educ_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/gini_life_exp_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/gini_ln(pop)_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/gini_unemp_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/gini_ln(gdppc)_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/region_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/region_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/subcontinent_graph.svg
+/Users/adamkovacs/CEU/DE1_course/Term2/graphs/inc_group_graph.svg

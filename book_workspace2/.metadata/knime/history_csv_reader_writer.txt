@@ -1,0 +1,10 @@
+/Users/adamkovacs/CEU/DE1_course/Term2/raw_data/gini.csv
+/Users/adamkovacs/CEU/DE1_course/Term2/raw_data/poverty.csv
+/Users/adamkovacs/CEU/DE1_course/Term2/raw_data/lifeexp.csv
+/Users/adamkovacs/CEU/DE1_course/Term2/raw_data/education.csv
+/Users/adamkovacs/CEU/DE1_course/Term2/education.csv
+/Users/adamkovacs/CEU/DE1_course/SQL_upload/gini.csv
+/Users/adamkovacs/CEU/DE1_course/SQL_upload/poverty.csv
+/Users/adamkovacs/CEU/DE1_course/SQL_upload/lifeexp.csv
+/Users/adamkovacs/CEU/DE1_course/DE1_termproject2/data/gini.csv
+/Users/adamkovacs/CEU/DE1_course/DE1_termproject2/eurostat_data/poverty.csv

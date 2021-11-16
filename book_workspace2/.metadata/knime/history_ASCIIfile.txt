@@ -1,0 +1,8 @@
+knime://knime.workflow/data.all
+https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_Engineering2/main/Data/Raw_Text_files/LifeExp.txt
+https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_Engineering2/main/Data/Raw_Text_files/WeeklyHoursWorked_by_Sex.txt
+https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_Engineering2/main/Data/Raw_Text_files/WorkHours.txt
+https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_Engineering2/main/Data/Raw_Text_files/EmpRate_by_EduLevel_w_Childrenunder6yrs.txt
+https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_Engineering2/main/Data/Raw_Text_files/GreenHouse_Emissions_Tonnes_per_Capita.txt
+https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_Engineering2/main/Data/Raw_Text_files/Satisfaction_Scores.txt
+https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_Engineering2/main/Data/Raw_Text_files/Countrycodes.txt

@@ -1,0 +1,3 @@
+http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/demo_mlexpec?precision=1&sex=T&unit=YR&time=2018&age=Y_LT1
+http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en
+https://restcountries.com/v3.1/alpha?codes=col,per,at

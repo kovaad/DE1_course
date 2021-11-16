@@ -1,0 +1,143 @@
+
+{
+    "version": "4.4.1.v202108201740",
+    "created": "2021-10-20 15:37",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.database.extension.mysql.node.connector.MySQLDBConnectorNodeFactory#MySQL Connector",
+                "nrexecs": 1,
+                "nrfails": 4,
+                "exectime": 1146,
+                "nrcreated": 1,
+                "successor": "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory#DB Query Reader"
+            },
+            {
+                "id": "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory#DB Query Reader",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 258,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 42,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.FileReaderNodeFactory#File Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 52,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeFactory#String Replacer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeFactory#String Replacer",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 80,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 151,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 65,
+                "nrcreated": 1,
+                "successor": "org.knime.rest.nodes.get.RestGetNodeFactory#GET Request"
+            },
+            {
+                "id": "org.knime.rest.nodes.get.RestGetNodeFactory#GET Request",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 11101,
+                "nrcreated": 1,
+                "successor": "org.knime.json.node.output.JSONOutputNodeFactory#Container Output (JSON)"
+            },
+            {
+                "id": "org.knime.json.node.input.JSONInputNodeFactory#Container Input (JSON)",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.json.node.output.JSONOutputNodeFactory#Container Output (JSON)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 6,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory#JSON Path",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 69,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.autobinner.apply.AutoBinnerApplyNodeFactory#Auto-Binner (Apply)",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory#Auto-Binner",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 68,
+                "nrcreated": 1,
+                "successor": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart"
+            },
+            {
+                "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 155,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 4518794,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 3,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 10844684,
+    "crashes": 0,
+    "properlyShutDown": true
+}
